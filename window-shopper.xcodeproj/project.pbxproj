@@ -56,7 +56,8 @@
 		4D6202662008F43200FC06B6 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
-				4DA2FD682008F67E00B3C1BB /* Views */,
+				4DA2FD6B2008FF1C00B3C1BB /* Model */,
+				4DA2FD682008F67E00B3C1BB /* View */,
 				4DA2FD672008F50900B3C1BB /* Controller */,
 				4D6202672008F43200FC06B6 /* AppDelegate.swift */,
 				4D62026B2008F43200FC06B6 /* Main.storyboard */,
@@ -75,12 +76,19 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		4DA2FD682008F67E00B3C1BB /* Views */ = {
+		4DA2FD682008F67E00B3C1BB /* View */ = {
 			isa = PBXGroup;
 			children = (
 				4DA2FD692008F6AB00B3C1BB /* CurrencyTextField.swift */,
 			);
-			path = Views;
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DA2FD6B2008FF1C00B3C1BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
